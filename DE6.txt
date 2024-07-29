@@ -1,0 +1,18 @@
+Viết ứng dụng web quản lý Thông tin đấu giá Bến, Bãi, Chợ trên địa bàn, cài đặt theo mô hình MVC thực hiện các chức năng sau:
+-	Quản lý Thông tin Bến, Bãi, Chợ (thêm, cập nhật, xóa, xem danh sách) (20đ)
+-	Theo dõi lịch sử đấu giá (20đ)
+-	Hiển thị danh sách Bến, Bãi, Chợ sắp đến hạn (có số tiền đấu giá). (10đ)
+Thông tin cơ bản của Bến, Bãi, Chợ:
+-	Tên
+-	Loại
+-	Địa chỉ
+-	Mô tả
+-	Giá trị
+-	Lịch sử đấu giá
+-	Tên Đơn vị chủ quan
+Thông tin cơ bản lịch sử đấu giá:
+-	Ngày đấu giá
+-	Giá trị
+-	Ngày bắt đầu
+-	Ngày kết thúc
+-	Tên Đơn vị sử dụng

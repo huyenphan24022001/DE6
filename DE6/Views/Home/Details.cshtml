@@ -1,0 +1,45 @@
+﻿@model DE6.Models.ThongTinCB
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-3">
+    <h2>Chi tiết</h2>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Mã</th>
+                <th>Tên</th>
+                <th>Loại</th>
+                <th>Địa chỉ</th>
+                <th>Mô tả</th>
+                <th>Giá trị</th>
+                <th>Tên đơn vị chủ quản</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.ID</td>
+                <td>@Model.Ten</td>
+                <td>@Model.Loai</td>
+                <td>@Model.DiaChi</td>
+                <td>@Model.MoTa</td>
+                <td>@Model.GiaTri</td>
+                <td>@Model.TenDonViCQ</td>
+               
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+
